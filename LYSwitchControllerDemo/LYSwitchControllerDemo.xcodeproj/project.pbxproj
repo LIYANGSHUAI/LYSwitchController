@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7E9F7D231624AC0034A696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9F7C231624AC0034A696 /* AppDelegate.m */; };
+		CC7E9F80231624AC0034A696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9F7F231624AC0034A696 /* ViewController.m */; };
+		CC7E9F83231624AC0034A696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7E9F81231624AC0034A696 /* Main.storyboard */; };
+		CC7E9F85231624AC0034A696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7E9F84231624AC0034A696 /* Assets.xcassets */; };
+		CC7E9F88231624AC0034A696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7E9F86231624AC0034A696 /* LaunchScreen.storyboard */; };
+		CC7E9F8B231624AC0034A696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9F8A231624AC0034A696 /* main.m */; };
+		CC7E9F95231624AC0034A696 /* LYSwitchControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9F94231624AC0034A696 /* LYSwitchControllerDemoTests.m */; };
+		CC7E9FA0231624AD0034A696 /* LYSwitchControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9F9F231624AD0034A696 /* LYSwitchControllerDemoUITests.m */; };
+		CC7E9FB0231624F80034A696 /* LYSwitchController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9FAF231624F80034A696 /* LYSwitchController.m */; };
+		CC7E9FB5231626930034A696 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9FB3231626930034A696 /* FirstViewController.m */; };
+		CC7E9FBA231626AA0034A696 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9FB8231626AA0034A696 /* SecondViewController.m */; };
+		CC7E9FBF231626B90034A696 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9FBD231626B90034A696 /* ThreeViewController.m */; };
+		CC7E9FC5231672160034A696 /* LYSwitchController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC7E9FC4231672150034A696 /* LYSwitchController.podspec */; };
+		CC7E9FC72316721B0034A696 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC7E9FC62316721B0034A696 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7E9F91231624AC0034A696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E9F70231624AB0034A696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E9F77231624AC0034A696;
+			remoteInfo = LYSwitchControllerDemo;
+		};
+		CC7E9F9C231624AD0034A696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E9F70231624AB0034A696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E9F77231624AC0034A696;
+			remoteInfo = LYSwitchControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7E9F78231624AC0034A696 /* LYSwitchControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSwitchControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E9F7B231624AC0034A696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC7E9F7C231624AC0034A696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC7E9F7E231624AC0034A696 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC7E9F7F231624AC0034A696 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC7E9F82231624AC0034A696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7E9F84231624AC0034A696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7E9F87231624AC0034A696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7E9F89231624AC0034A696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7E9F8A231624AC0034A696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC7E9F90231624AC0034A696 /* LYSwitchControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSwitchControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E9F94231624AC0034A696 /* LYSwitchControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSwitchControllerDemoTests.m; sourceTree = "<group>"; };
+		CC7E9F96231624AD0034A696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7E9F9B231624AD0034A696 /* LYSwitchControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSwitchControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E9F9F231624AD0034A696 /* LYSwitchControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSwitchControllerDemoUITests.m; sourceTree = "<group>"; };
+		CC7E9FA1231624AD0034A696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7E9FAE231624F80034A696 /* LYSwitchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSwitchController.h; sourceTree = "<group>"; };
+		CC7E9FAF231624F80034A696 /* LYSwitchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSwitchController.m; sourceTree = "<group>"; };
+		CC7E9FB2231626930034A696 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CC7E9FB3231626930034A696 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CC7E9FB7231626AA0034A696 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CC7E9FB8231626AA0034A696 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CC7E9FBC231626B90034A696 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		CC7E9FBD231626B90034A696 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		CC7E9FC4231672150034A696 /* LYSwitchController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSwitchController.podspec; path = ../../LYSwitchController.podspec; sourceTree = "<group>"; };
+		CC7E9FC62316721B0034A696 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7E9F75231624AC0034A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F8D231624AC0034A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F98231624AD0034A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7E9F6F231624AB0034A696 = {
+			isa = PBXGroup;
+			children = (
+				CC7E9F7A231624AC0034A696 /* LYSwitchControllerDemo */,
+				CC7E9F93231624AC0034A696 /* LYSwitchControllerDemoTests */,
+				CC7E9F9E231624AD0034A696 /* LYSwitchControllerDemoUITests */,
+				CC7E9F79231624AC0034A696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7E9F79231624AC0034A696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9F78231624AC0034A696 /* LYSwitchControllerDemo.app */,
+				CC7E9F90231624AC0034A696 /* LYSwitchControllerDemoTests.xctest */,
+				CC7E9F9B231624AD0034A696 /* LYSwitchControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7E9F7A231624AC0034A696 /* LYSwitchControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9F7B231624AC0034A696 /* AppDelegate.h */,
+				CC7E9F7C231624AC0034A696 /* AppDelegate.m */,
+				CC7E9F7E231624AC0034A696 /* ViewController.h */,
+				CC7E9F7F231624AC0034A696 /* ViewController.m */,
+				CC7E9FC4231672150034A696 /* LYSwitchController.podspec */,
+				CC7E9FC62316721B0034A696 /* README.md */,
+				CC7E9FB1231626650034A696 /* Controllers */,
+				CC7E9FAD231624CE0034A696 /* LYSwitchController */,
+				CC7E9F81231624AC0034A696 /* Main.storyboard */,
+				CC7E9F84231624AC0034A696 /* Assets.xcassets */,
+				CC7E9F86231624AC0034A696 /* LaunchScreen.storyboard */,
+				CC7E9F89231624AC0034A696 /* Info.plist */,
+				CC7E9F8A231624AC0034A696 /* main.m */,
+			);
+			path = LYSwitchControllerDemo;
+			sourceTree = "<group>";
+		};
+		CC7E9F93231624AC0034A696 /* LYSwitchControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9F94231624AC0034A696 /* LYSwitchControllerDemoTests.m */,
+				CC7E9F96231624AD0034A696 /* Info.plist */,
+			);
+			path = LYSwitchControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		CC7E9F9E231624AD0034A696 /* LYSwitchControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9F9F231624AD0034A696 /* LYSwitchControllerDemoUITests.m */,
+				CC7E9FA1231624AD0034A696 /* Info.plist */,
+			);
+			path = LYSwitchControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CC7E9FAD231624CE0034A696 /* LYSwitchController */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9FAE231624F80034A696 /* LYSwitchController.h */,
+				CC7E9FAF231624F80034A696 /* LYSwitchController.m */,
+			);
+			name = LYSwitchController;
+			path = ../../LYSwitchController;
+			sourceTree = "<group>";
+		};
+		CC7E9FB1231626650034A696 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E9FB2231626930034A696 /* FirstViewController.h */,
+				CC7E9FB3231626930034A696 /* FirstViewController.m */,
+				CC7E9FB7231626AA0034A696 /* SecondViewController.h */,
+				CC7E9FB8231626AA0034A696 /* SecondViewController.m */,
+				CC7E9FBC231626B90034A696 /* ThreeViewController.h */,
+				CC7E9FBD231626B90034A696 /* ThreeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7E9F77231624AC0034A696 /* LYSwitchControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E9FA4231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemo" */;
+			buildPhases = (
+				CC7E9F74231624AC0034A696 /* Sources */,
+				CC7E9F75231624AC0034A696 /* Frameworks */,
+				CC7E9F76231624AC0034A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSwitchControllerDemo;
+			productName = LYSwitchControllerDemo;
+			productReference = CC7E9F78231624AC0034A696 /* LYSwitchControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7E9F8F231624AC0034A696 /* LYSwitchControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E9FA7231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemoTests" */;
+			buildPhases = (
+				CC7E9F8C231624AC0034A696 /* Sources */,
+				CC7E9F8D231624AC0034A696 /* Frameworks */,
+				CC7E9F8E231624AC0034A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7E9F92231624AC0034A696 /* PBXTargetDependency */,
+			);
+			name = LYSwitchControllerDemoTests;
+			productName = LYSwitchControllerDemoTests;
+			productReference = CC7E9F90231624AC0034A696 /* LYSwitchControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7E9F9A231624AD0034A696 /* LYSwitchControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E9FAA231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemoUITests" */;
+			buildPhases = (
+				CC7E9F97231624AD0034A696 /* Sources */,
+				CC7E9F98231624AD0034A696 /* Frameworks */,
+				CC7E9F99231624AD0034A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7E9F9D231624AD0034A696 /* PBXTargetDependency */,
+			);
+			name = LYSwitchControllerDemoUITests;
+			productName = LYSwitchControllerDemoUITests;
+			productReference = CC7E9F9B231624AD0034A696 /* LYSwitchControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7E9F70231624AB0034A696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HENAN;
+				TargetAttributes = {
+					CC7E9F77231624AC0034A696 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CC7E9F8F231624AC0034A696 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CC7E9F77231624AC0034A696;
+					};
+					CC7E9F9A231624AD0034A696 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CC7E9F77231624AC0034A696;
+					};
+				};
+			};
+			buildConfigurationList = CC7E9F73231624AB0034A696 /* Build configuration list for PBXProject "LYSwitchControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7E9F6F231624AB0034A696;
+			productRefGroup = CC7E9F79231624AC0034A696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7E9F77231624AC0034A696 /* LYSwitchControllerDemo */,
+				CC7E9F8F231624AC0034A696 /* LYSwitchControllerDemoTests */,
+				CC7E9F9A231624AD0034A696 /* LYSwitchControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7E9F76231624AC0034A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E9F88231624AC0034A696 /* LaunchScreen.storyboard in Resources */,
+				CC7E9FC5231672160034A696 /* LYSwitchController.podspec in Resources */,
+				CC7E9FC72316721B0034A696 /* README.md in Resources */,
+				CC7E9F85231624AC0034A696 /* Assets.xcassets in Resources */,
+				CC7E9F83231624AC0034A696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F8E231624AC0034A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F99231624AD0034A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7E9F74231624AC0034A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E9FBA231626AA0034A696 /* SecondViewController.m in Sources */,
+				CC7E9FBF231626B90034A696 /* ThreeViewController.m in Sources */,
+				CC7E9F80231624AC0034A696 /* ViewController.m in Sources */,
+				CC7E9F8B231624AC0034A696 /* main.m in Sources */,
+				CC7E9FB5231626930034A696 /* FirstViewController.m in Sources */,
+				CC7E9FB0231624F80034A696 /* LYSwitchController.m in Sources */,
+				CC7E9F7D231624AC0034A696 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F8C231624AC0034A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E9F95231624AC0034A696 /* LYSwitchControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E9F97231624AD0034A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E9FA0231624AD0034A696 /* LYSwitchControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7E9F92231624AC0034A696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7E9F77231624AC0034A696 /* LYSwitchControllerDemo */;
+			targetProxy = CC7E9F91231624AC0034A696 /* PBXContainerItemProxy */;
+		};
+		CC7E9F9D231624AD0034A696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7E9F77231624AC0034A696 /* LYSwitchControllerDemo */;
+			targetProxy = CC7E9F9C231624AD0034A696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC7E9F81231624AC0034A696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7E9F82231624AC0034A696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7E9F86231624AC0034A696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7E9F87231624AC0034A696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7E9FA2231624AD0034A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC7E9FA3231624AD0034A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7E9FA5231624AD0034A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYSwitchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7E9FA6231624AD0034A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYSwitchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC7E9FA8231624AD0034A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSwitchControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSwitchControllerDemo.app/LYSwitchControllerDemo";
+			};
+			name = Debug;
+		};
+		CC7E9FA9231624AD0034A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSwitchControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSwitchControllerDemo.app/LYSwitchControllerDemo";
+			};
+			name = Release;
+		};
+		CC7E9FAB231624AD0034A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSwitchControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSwitchControllerDemo;
+			};
+			name = Debug;
+		};
+		CC7E9FAC231624AD0034A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSwitchControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSwitchControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSwitchControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7E9F73231624AB0034A696 /* Build configuration list for PBXProject "LYSwitchControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E9FA2231624AD0034A696 /* Debug */,
+				CC7E9FA3231624AD0034A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E9FA4231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E9FA5231624AD0034A696 /* Debug */,
+				CC7E9FA6231624AD0034A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E9FA7231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E9FA8231624AD0034A696 /* Debug */,
+				CC7E9FA9231624AD0034A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E9FAA231624AD0034A696 /* Build configuration list for PBXNativeTarget "LYSwitchControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E9FAB231624AD0034A696 /* Debug */,
+				CC7E9FAC231624AD0034A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7E9F70231624AB0034A696 /* Project object */;
+}

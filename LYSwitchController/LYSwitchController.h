@@ -1,7 +1,15 @@
-# LYSwitchController
-简单的封装一个可以切换子视图的控制器
+//
+//  LYSwitchController.h
+//  LYSwitchControllerDemo
+//
+//  Created by HENAN on 2019/8/28.
+//  Copyright © 2019 HENAN. All rights reserved.
+//
 
-```objc
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol LYSwitchSubControllerDelegate <NSObject>
 
 /// 模拟 viewDidLoad
@@ -39,4 +47,4 @@
 - (void)scrollToIndex:(NSInteger)index animated:(BOOL)animated;
 @end
 
-```
+NS_ASSUME_NONNULL_END
